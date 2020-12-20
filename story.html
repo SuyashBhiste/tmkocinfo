@@ -21,27 +21,40 @@
 	<body>
 		<!---------------------------------------- Navbar ---------------------------------------->
 		<section class="mynav">
-			<nav>
-				<div class="nav-wrapper">
-					<a href="index.html"
-						><img
-							src="images/logo.jpg"
-							alt="TMKOC Logo"
-							class="brand-logo"
-					/></a>
-					<ul id="nav-mobile" class="right hide-on-med-and-down">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="cast.html">Cast</a></li>
-						<li><a href="story.html">Story</a></li>
-						<li>
-							<a
-								href="https://youtube.com/playlist?list=PL6Rtnh6YJK7Zfu1x9Bd1UqLwUxhZ1oBJh"
-								>Watch Now</a
-							>
-						</li>
-					</ul>
-				</div>
-			</nav>
+			<div class="navbar-fixed">
+				<nav>
+					<div class="nav-wrapper">
+						<a href="index.html"
+							><img
+								src="images/logo.jpg"
+								alt="TMKOC Logo"
+								class="brand-logo"
+						/></a>
+						<a
+							href="#"
+							data-target="mobile-demo"
+							class="sidenav-trigger"
+							><i class="material-icons">menu</i></a
+						>
+						<ul id="nav-mobile" class="right hide-on-med-and-down">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="cast.html">Cast</a></li>
+							<li><a href="story.html">Story</a></li>
+							<li>
+								<a
+									href="https://youtube.com/playlist?list=PL6Rtnh6YJK7Zfu1x9Bd1UqLwUxhZ1oBJh"
+									>Watch Now</a
+								>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<ul class="sidenav" id="mobile-demo">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="cast.html">Cast</a></li>
+				<li><a href="story.html">Story</a></li>
+			</ul>
 		</section>
 
 		<!-------------------------------------- Video -------------------------------------->

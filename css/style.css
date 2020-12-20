@@ -1,0 +1,97 @@
+.brand-logo {
+  height: 100%;
+}
+
+.nav-wrapper {
+  background-color: #ffd300;
+}
+
+.nav-wrapper ul li a {
+  font-size: 20px;
+}
+
+.mycast {
+  text-align: center;
+}
+
+.myoverview {
+  text-align: center;
+  background-color: #fff9c4;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.myproducer h2 {
+  text-align: center;
+}
+
+.myproducer h3 {
+  padding-top: 10px;
+}
+
+.myproducer p {
+  padding-top: 10px;
+  font-size: 18px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.myproducer img {
+  border-radius: 5px;
+}
+
+.myspecialguest {
+  text-align: center;
+  background-color: #fff9c4;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.myspecialguest img {
+  opacity: 0.6;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #ffd300 !important;
+}
+
+.page-footer {
+  background-color: #f5c160;
+}
+
+.mybanner {
+  background-color: #ffd300;
+}
+
+.caption-text {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -webkit-transform: translate(-75%, -50%);
+          transform: translate(-75%, -50%);
+  color: #ffd300;
+}
+
+.hide-image {
+  display: none;
+}
+
+.myintro p {
+  font-family: "Courgette", cursive;
+  font-size: 22px;
+  padding-top: 60px;
+}
+
+.myposter span {
+  font-size: 20px;
+}
+
+.mystory {
+  background-color: #fff9c4;
+  padding-bottom: 30px;
+}
+
+.mystory p {
+  font-size: 22px;
+  font-family: "Permanent Marker", cursive;
+}
+/*# sourceMappingURL=style.css.map */

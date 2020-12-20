@@ -1,0 +1,130 @@
+$colorstack: (
+	primary: #ffd300,
+	//use background image for this
+	secondary: radial-gradient(#f40045, #b90039, #9e0035),
+	tertiary: #fff9c4,
+	yeloli: #f5c160,
+);
+
+@function color($colorname) {
+	@return map-get($colorstack, $colorname);
+}
+
+$primaryfont: "Asap", sans-serif;
+$secondaryfont: "Permanent Marker", cursive;
+$parafont: "Courgette", cursive;
+
+$fontstack: (
+	fontone: $primaryfont,
+	fonttwo: $secondaryfont,
+	fontpara: $parafont,
+);
+
+@function font($fontname) {
+	@return map-get($fontstack, $fontname);
+}
+
+.brand-logo {
+	height: 100%;
+}
+
+.nav-wrapper {
+	background-color: color(primary);
+
+	ul {
+		li {
+			a {
+				font-size: 20px;
+			}
+		}
+	}
+}
+
+body {
+	font-family: font(primaryfont);
+}
+
+.mycast {
+	text-align: center;
+}
+
+.myoverview {
+	text-align: center;
+	background-color: color(tertiary);
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.myproducer {
+	h2 {
+		text-align: center;
+	}
+	h3 {
+		padding-top: 10px;
+	}
+	p {
+		padding-top: 10px;
+		font-size: 18px;
+		font-family: font(fonttwo);
+	}
+	img {
+		border-radius: 5px;
+	}
+}
+
+.myspecialguest {
+	text-align: center;
+	img {
+		opacity: 0.6;
+	}
+	background-color: color(tertiary);
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.slider .indicators .indicator-item.active {
+	background-color: color(primary) !important;
+}
+
+.page-footer {
+	background-color: color(yeloli);
+}
+
+.mybanner {
+	background-color: color(primary);
+}
+
+.caption-text {
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-75%, -50%);
+	color: color(primary);
+}
+
+.hide-image {
+	display: none;
+}
+
+.myintro {
+	p {
+		font-family: font(fontpara);
+		font-size: 22px;
+		padding-top: 60px;
+	}
+}
+
+.myposter {
+	span {
+		font-size: 20px;
+	}
+}
+
+.mystory {
+	background-color: color(tertiary);
+	p {
+		font-size: 22px;
+		font-family: font(fonttwo);
+	}
+	padding-bottom: 30px;
+}
